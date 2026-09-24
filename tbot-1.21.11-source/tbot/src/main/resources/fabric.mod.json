@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "tbot",
+  "version": "1.0.0",
+  "name": "TBot",
+  "description": "Attacco automatico quando il mirino è su un'entità. Toggle con N.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.tbot.TBotMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
